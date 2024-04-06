@@ -35,7 +35,7 @@ handler.help = ['minar2'];
 handler.tags = ['gata'];
 handler.command = ['minar2', 'mining2', 'mine2', 'minarmysticcoins', 'minarcoins', 'minarmystic'];
 handler.fail = null;
-handler.exp = 1;
+handler.exp = 0;
 export default handler;
 function msToTime(duration) {
   const milliseconds = parseInt((duration % 1000) / 100);
