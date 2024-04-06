@@ -14,7 +14,7 @@ const handler = async (m, {conn, isPrems}) => {
 };
 handler.help = ['minar'];
 handler.tags = ['xp'];
-handler.command = ['minar', 'miming', 'mine'];
+handler.command = ['minar', 'mining', 'mine'];
 handler.fail = null;
 handler.exp = 0;
 export default handler;
