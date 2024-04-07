@@ -1,7 +1,7 @@
 # `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏` 
 
 ------------------
-> **AVISO**: Yo "Bruno Sobrino", me he retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
+> **AVISO**: "Bruno Sobrino", se ha retirado de todo lo relacionado con el bot o temas similares, por lo que en algún momento quedará obsoleto y/o algunos comandos dejarán de funcionar. Agradezco su preferencia durante el recorrido por este mundo de los bots.
 
 > TheMystic-Bot-MD pasa a quedar en manos de colaboradores, y como principal representante Aiden_NotLogic.
 ------------------
@@ -44,7 +44,7 @@
 
 ### `▢ AJUSTES`
 - Clona el repositorio haciendo [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/fork)
-- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/BrunoSobrino/TheMystic-Bot-MD/blob/master/config.js)
+- ¿Quieres cambiar el número del propietario? haz [clic aquí](https://github.com/Trx-Bot17/TheMystic-Bot-MD/blob/master/config.js)
 
 ### `▢ ACTIVAR EN CAFIREXOS (ANTES ZIPPONODES)`
 <a href="https://www.cafirexos.com"><img src="https://r2.cafirexos.com/logos%2Flogo_cfros_2000x2000.png" height="125px"></a>
@@ -81,11 +81,7 @@ cd && termux-setup-storage
 ```
 
 ```bash
-apt-get update -y && apt-get upgrade -y
-```
-
-```bash
-pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn 
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
@@ -93,15 +89,7 @@ git clone https://github.com/Trx-Bot17/TheMystic-Bot-MD.git && cd TheMystic-Bot-
 ```
 
 ```bash
-yarn install
-```
-
-```bash
-npm install
-```
-
-```bash
-npm update
+yarn install && npm start && npm update
 ```
 
 ```bash
